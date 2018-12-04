@@ -1,4 +1,4 @@
-# INFO3220-Assessment3
+# Read Me
 Object Oriented Design
 
 1. Extensions friendly design.
