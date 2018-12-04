@@ -1,0 +1,46 @@
+{
+"stage3" : true,
+"table" : {
+ "colour":"#3edd74",
+ "size":{
+ "x":900,
+ "y":600
+ },
+ "friction":0.5,
+ "pockets": [
+ {"position":{"x":7,"y":7}},
+ {"position":{"x":893,"y":593}},
+ {"position":{"x":893,"y":7}},
+ {"position":{"x":7,"y":593}},
+ {"position":{"x":450,"y":7},"radius":15},
+ {"position":{"x":450,"y":593},"radius":15}
+ ]
+},
+"balls" : [
+ {"position":{"x":100,"y":100},"velocity":{"x":50,"y":50},"mass":1},
+ {"colour":"red","position":{"x":150,"y":60},"mass":1,"radius":10},
+ {"colour":"blue","position":{"x":150,"y":40},"velocity":{"x":-100,"y":0},"radius":10},
+ {"colour":"yellow","position":{"x":250,"y":70},"mass":1,"radius":25,"strength":1e6,"velocity":{"x":-100,"y":-100},
+	 "balls":[
+     {"colour":"red","position":{"x":-10,"y":0},"mass":1,"radius":15},
+	 {"colour":"red","position":{"x":10,"y":0}},
+	 {"colour":"red","position":{"x":0,"y":-10}},
+     {"position":{"x":0,"y":10}, "mass":2,"strength":1e8,
+		 "balls":[
+         {"colour":"blue","strength":1e10,
+			 "balls":[
+             {"colour":"red", "strength":1e12}
+			 ]
+		}]
+	 }]
+ }],
+
+"ballGroup" : [
+        {"colour":"#e74587","position":{"x":20,"y":20},"mass":1,"radius":15,"strength":1e6,
+            "balls":[
+            {"colour":"#ffd300","position":{"x":0,"y":0},"mass":1,"radius":8}
+            ]
+    }]
+}
+
+
